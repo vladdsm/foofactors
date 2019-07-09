@@ -8,11 +8,11 @@
 #' @export
 #'
 #' @examples
-#'
+#' library(foofactors)
 #' x <- data.frame(a = 3, b = 4, c = 5)
 #' y <- data.frame(X = 1, Y = 2)
 #' where <- 2
-#' insert_into(x, y)
+#' insert_into(x, y, where)
 #'
 #'
 insert_into <- function(x, y, where = 1) {
